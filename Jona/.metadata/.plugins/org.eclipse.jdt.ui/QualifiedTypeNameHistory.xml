@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="Paginas.InsertMail"/>
+<fullyQualifiedTypeName name="Paginas.InsertPass"/>
+<fullyQualifiedTypeName name="com.thoughtworks.selenium.webdriven.commands.Click"/>
+<fullyQualifiedTypeName name="Paginas.Sleep"/>
+<fullyQualifiedTypeName name="Function.SleepFunction"/>
+<fullyQualifiedTypeName name="Paginas.EnviarMail"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
+<fullyQualifiedTypeName name="Paginas.BandejaEntrada"/>
+<fullyQualifiedTypeName name="Paginas.Papelera"/>
+<fullyQualifiedTypeName name="com.thoughtworks.selenium.Wait"/>
+<fullyQualifiedTypeName name="com.thoughtworks.selenium.webdriven.commands.WaitForPageToLoad"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.NoSuchElementException"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="Librería.driver2"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
+<fullyQualifiedTypeName name="com.sun.jna.Library"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="Library.FindElementBy"/>
+<fullyQualifiedTypeName name="Library.Actions"/>
+</qualifiedTypeNameHistroy>

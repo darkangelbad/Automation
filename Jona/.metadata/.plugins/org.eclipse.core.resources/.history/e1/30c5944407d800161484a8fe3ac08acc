@@ -1,0 +1,20 @@
+package Test;
+
+import org.openqa.selenium.WebDriver;
+import Library.Drivers;
+import Library.Actions;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		String URL = ("http://www.google.com");
+		WebDriver wd = Drivers.driverChrome();
+		//WebDriver wd = Drivers.driverFirefox();
+		wd.get(URL);
+		
+		Actions.SendKeys(wd, "id", "lst-ib", "Gatos");
+		
+	}
+
+}

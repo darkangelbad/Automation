@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Paginas.BandejaEntrada&apos; to &apos;EnviarMail&apos;&#x0D;&#x0A;- Original project: &apos;C - AutomationGmail&apos;&#x0D;&#x0A;- Original element: &apos;Paginas.BandejaEntrada&apos;&#x0D;&#x0A;- Renamed element: &apos;Paginas.EnviarMail&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BandejaEntrada&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Paginas{BandejaEntrada.java[BandejaEntrada" matchStrategy="1" name="EnviarMail" qualified="false" references="true" similarDeclarations="false" stamp="1452883501502" textual="false" version="1.0"/>
+</session>

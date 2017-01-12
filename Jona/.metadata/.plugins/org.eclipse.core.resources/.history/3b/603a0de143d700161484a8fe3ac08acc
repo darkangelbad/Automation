@@ -1,0 +1,23 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import Libreria.Drivers;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String URL = ("http://www.google.com");
+		
+
+		/*WebDriver wd = null;
+		String exePath = "C:\\Users\\jacita\\shoppertrak\\project\\Jona\\chromedriver.exe";
+		System.setProperty("webdriver.chrome.driver", exePath);
+		
+		wd = new ChromeDriver();*/
+		
+		WebDriver wd = Libreria.driver2.driverChrome();
+		//WebDriver wd = Libreria.driver2.driverFirefox();
+		wd.get(URL);
+		
+	}
+
+}

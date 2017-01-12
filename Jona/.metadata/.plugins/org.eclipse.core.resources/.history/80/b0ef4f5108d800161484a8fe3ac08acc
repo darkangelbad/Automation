@@ -1,0 +1,23 @@
+package Test;
+
+import org.openqa.selenium.WebDriver;
+import Library.Drivers;
+import Library.Actions;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		String URL = ("http://www.google.com");
+		WebDriver wd = Drivers.driverChrome();
+		//WebDriver wd = Drivers.driverFirefox();
+		
+		
+		wd.get(URL);
+		Actions.SendKeys(wd, "id", "lst-ib", "Gatos");
+		Actions.Click(wd, "id", "_fZl");
+		Actions.Click(wd, "xpath", "//a[contains(@href, '/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwiCnKaNobrRAhVGHJAKHXvgC84QtwIIGzAA&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dthzm6oqK8O4&usg=AFQjCNHfbkjbzzseav-poDO6_EF4dWXDhA&bvm=bv.143423383,d.Y2I')]");
+		
+	}
+
+}
